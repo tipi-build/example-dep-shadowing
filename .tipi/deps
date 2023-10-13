@@ -1,0 +1,19 @@
+{
+    "boostorg/boost" : {
+        "@" : "boost-1.80.0",
+        "opts": "set(BOOST_INCLUDE_LIBRARIES system filesystem thread msm)",
+        "packages": [ 
+            "boost_system", 
+            "boost_filesystem", 
+            "boost_thread",
+            "boost_msm"
+        ],
+        "targets": [ 
+            "Boost::system",
+            "Boost::filesystem", 
+            "Boost::thread",
+            "Boost::msm"
+        ],
+        "u": true
+    }  
+}
