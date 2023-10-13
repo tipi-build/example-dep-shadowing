@@ -10,7 +10,7 @@
         "requires": {
             "boostorg/boost" : { 
                 "@" : "boost-1.80.0",
-                "opts": "set(BOOST_INCLUDE_LIBRARIES system filesystem thread msm)",
+                "opts" : "set (BOOST_LOG_WITHOUT_EVENT_LOG ON CACHE BOOL \"\" FORCE)\n",
                 "packages": [ 
                     "boost_system", 
                     "boost_filesystem", 
